@@ -51,10 +51,13 @@ Finally, use the testing data to evaluate each model and compare the performance
 Use the above to answer the following:
 
 > Which model has a lower loss?
+>The model using the closing data seemed to have the lower loss.
 >
 > Which model tracks the actual values better over time?
+>The model using the just the closing data seems to track the actual values better over time
 >
 > Which window size works best for the model?
+> a window of 4 days seemed to work best for the model.  the model didn't seem to be overfit and the loss was minimized.
 
 - - -
 
